@@ -1,0 +1,74 @@
+
+.skill h2{
+    margin-top: 5%;
+    display: flex;
+    font-size: 50px;
+    font-weight: 400;
+    // font-style: italic;
+    justify-content: center;
+    // color: #0ef;
+    padding-left: 1%;
+}
+.details{
+    padding-top: 4%;
+    display: flex;
+    // width:90vw;
+    // justify-content: space-around;
+}
+.front{
+    width: 50vw;
+    // display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+
+    h3{
+        font-size: 20px;
+        font-family: open sans;
+    }
+     
+}
+.Ficon,.Bicon{
+    width: 40vw;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // gap: 40px;
+    row-gap:30px;
+    // column-gap: 40px;
+    p{
+        font-family: open sans;
+        font-size: 15px;
+        padding-left: 1px;
+        color: #0ef
+    }
+}
+.icon1,.icon2{
+    display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+    column-gap: 40px;
+}
+.backend{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // padding-left: 10%;
+    h3{
+        font-size: 20px;
+        font-family: open sans;
+    }
+}
+
+.db{
+    padding-top: 2%;
+
+
+p{
+    font-family: open sans;
+        font-size: 15px;
+        padding-left: 1px;
+        color: #0ef
+}
+} 

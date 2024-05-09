@@ -1,0 +1,139 @@
+*{
+  background-color:  #333945;
+  color: white;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3%;
+  margin-top: 2%;
+  font-family: open sans;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+  gap: 15px;
+}
+
+.menu {
+  display: flex;
+  // justify-content:flex-end ;
+  justify-content: space-between;
+  padding-right: 8%;
+  cursor: default;
+  list-style: none;
+  font-family: open sans;
+}
+.menu:hover {
+  font-size: large;
+  color: rgb(208, 213, 152);
+}
+
+button {
+  font-family: open sans;
+  border: none;
+  background: none;
+  // height: 30px;
+  align-items: center;
+  display: flex;
+  // justify-content: center;
+
+
+}
+  button:hover {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    cursor:pointer;
+  }
+
+.about {
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  // color: rgb(10, 8, 8);
+
+  .para {
+    width: 50vw;
+    // white-space: nowrap;
+    // overflow: hidden;
+  }
+}
+.abt{
+  display: flex;
+  // justify-content: center;
+  // align-items:flex-start;
+  flex-direction:column;
+  // justify-content: flex-start;
+  width: 50vw;
+  
+}
+
+.abt h1{
+  margin-top: -1%;
+  font-size: 40px;
+  font-family:open sans;
+}
+.abt h4{
+  font-size: 22px;
+  margin-top: -1%;
+  padding-left: 4%;
+}
+span{
+  font-family: open sans;
+  font-size: 25px;
+  color: #0ef;
+}
+.about p{
+  margin-top: 5px;
+  display: flex;
+  width: 45vw;
+  padding-left: 4%;
+  font-size: 20px;
+  font-family: open sans;
+  // justify-content: flex-start;
+}
+.about button{
+  padding:5px;
+  margin-top: 4%;
+  margin-left: 2%;
+  background: #0ef;
+  color: #333945;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+  width: 9%;
+  height: 35px;
+
+  
+}
+.about button:hover{
+  box-shadow: 0 0 10px #0ef;
+  color: #ffffff;
+  font: bold;
+  width: 10%;
+  height: 40px;
+}
+
+.socialmedia a{
+  background: transparent;
+  padding: 4px;
+  // padding-left: 2%;
+}
+.socialmedia{
+  gap: 10%;
+  margin-top: 5px;
+  padding-left: 2%;
+
+}
+
+
+
+
+
+
+// 3406/00899960/000/00
