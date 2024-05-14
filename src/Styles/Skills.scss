@@ -1,25 +1,30 @@
-
+.skill_cont{
+    display: flex;
+    flex-direction: column;
+}
 .skill h2{
-    margin-top: 5%;
+    margin-top: 9%;
     display: flex;
     font-size: 50px;
     font-weight: 400;
-    // font-style: italic;
+    font-family: open sans;
     justify-content: center;
     // color: #0ef;
     padding-left: 1%;
 }
 .details{
     padding-top: 4%;
+    // padding-left: 2%;
     display: flex;
     // width:90vw;
-    // justify-content: space-around;
+    justify-content: space-between;
 }
 .front{
-    width: 50vw;
-    // display: flex;
+    // width: 40vw;
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    padding-left: 10%;
+    padding-left: 5%;
 
     h3{
         font-size: 20px;
@@ -28,7 +33,7 @@
      
 }
 .Ficon,.Bicon{
-    width: 40vw;
+    width: 30vw;
     padding-top: 3%;
     display: flex;
     flex-direction: column;
@@ -38,7 +43,7 @@
     // column-gap: 40px;
     p{
         font-family: open sans;
-        font-size: 15px;
+        font-size: 16px;
         padding-left: 1px;
         color: #0ef
     }
@@ -50,11 +55,11 @@
     column-gap: 40px;
 }
 .backend{
-    width: 50vw;
+    // width: 30vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    // padding-left: 10%;
+    padding-right: 5%;
     h3{
         font-size: 20px;
         font-family: open sans;
@@ -62,13 +67,34 @@
 }
 
 .db{
-    padding-top: 2%;
-
-
-p{
+    display: flex;
+    flex-direction: column;
+    // padding-top: 2%;
+    padding-left: 2%; 
+    padding-right: 12%;
+    h3{
+        font-size: 20px;
+        font-family: open sans;
+    }
+    
+    p{
     font-family: open sans;
-        font-size: 15px;
+        font-size: 16px;
         padding-left: 1px;
         color: #0ef
 }
 } 
+.Dicon{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+}
+
+@media screen and (max-width:770px) {
+
+    .details{
+       flex-wrap: wrap;
+    }
+    
+}

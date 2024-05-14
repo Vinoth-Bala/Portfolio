@@ -1,0 +1,43 @@
+.con h2{
+    padding-top: 6%;
+    display: flex;
+    font-size: 55px;
+    font-weight: 300;
+    font-family: open sans;
+    justify-content: center;
+    
+    padding-left: 1%;;
+}
+
+.contact{
+    display: flex;
+    font-size: 17px;
+    font-family: open sans;
+    justify-content: flex-start;
+    flex-direction: column;
+    // gap: 15px;
+    row-gap: 20px;
+    // column-gap: 20px;
+    border: solid 1px rgb(85, 81, 81);
+    padding: 5% 7%;
+    border-radius: 20px;
+    // align-content: flex-start;
+}
+
+.con_details{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    // padding-bottom: 15%;
+    
+}
+.contact:hover{
+    box-shadow: 0 0 7px #0ef;
+}
+
+.footer{
+    font-size: 17px;
+    font-family: open sans;
+    margin-top: 9%;
+    border-top: solid 1px rgb(85, 81, 81);
+}

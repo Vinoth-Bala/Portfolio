@@ -7,16 +7,18 @@ import { RiReactjsFill } from "react-icons/ri";
 import { FaPython } from "react-icons/fa";
 import { TbBrandDjango } from "react-icons/tb";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { TbBrandMysql } from "react-icons/tb";
 
 function Skills() {
   return (
     
     <div>
-      <div className="skill">
+      <div className="skill" id="skill">
         <h2>CapabilitieS</h2>
       </div>
       
       <div className="details">
+       
         <div className="front"> 
           <h3>Front End</h3>
           <div className="Ficon">
@@ -38,34 +40,42 @@ function Skills() {
               <RiReactjsFill size={100} /> 
               <p>React JS</p></span> 
             </div>
+          </div>  
         </div>
-      </div>
-
-      <div className="backend">
-        <h3>Back End </h3>
+        
+        <div className="backend">
+          <h3>Back End </h3>
           <div className="Bicon">
             <div className="icon1">
               <span>
               <FaPython size={100} /> 
               <p>Python</p></span> 
-              </div>
+            </div>
             <div className="icon2"> 
             <span> <TbBrandDjango size={100} /><p>Django</p></span> 
             </div>
-           
+          </div>
+          
+        </div>
+        <div className="db">
+          <h3>DataBase </h3>
+          <div className="Dicon"> 
+            <span>
+            <BiLogoPostgresql size={100} />
+            <p>Postgresql</p>
+            </span>
+            
+            <span>
+            <TbBrandMysql size={100}/>
+            <p>My SQL</p>
+            </span>
           </div>
         </div>
-      </div>
-      <div className="db">
-        <h3>DataBase </h3>
-        <span>
-        <BiLogoPostgresql size={110} />
-        <p>Postgresql</p>
-        </span>
-
+         
+        
       </div>
     </div>
-  
+    
   );
 }
 

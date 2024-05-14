@@ -1,0 +1,66 @@
+.edu h2{
+    padding-top: 6.5%;
+    display: flex;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: open sans;
+    justify-content: center;
+    // color: #0ef;
+    padding-left: 1%;
+    // column-gap: 20px;
+    // row-gap: 40px;
+}
+.edu_details{
+    padding: 2% 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    
+}
+.clg{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2% 5% ;
+    border:solid 1px rgb(85, 81, 81);
+    font-family: open sans;
+    // background-color: #0ef;
+    // background: transparent;
+    border-radius: 20px;
+    
+    
+
+    span{
+        color: white;
+        font-size: 20px;
+    }
+    h3{
+        margin-top: 3px;
+        font-size: 17px;
+    }
+    i{
+        font-family:times new roman;
+        font-style:normal;
+    }
+    p{
+        margin-top: -10px;
+    }
+
+
+}
+.clg:hover{
+    box-shadow: 0 0 7px #0ef;
+}
+
+
+@media screen and (max-width:1040px){
+.edu_details{
+        flex-direction: column;
+        // column-gap: 10px;
+        row-gap: 40px;
+    }
+   
+    
+}

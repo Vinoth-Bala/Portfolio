@@ -1,30 +1,35 @@
 import React from "react";
 import "../Styles/Main.scss";
+import resume from"../Assets/Vinoth-B-Resume.pdf";
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
-// import { Link } from "react-router-dom";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Main() {
+
   return (
     <div>
-      <div className="main">
+      <div className="main" id="main">
         <h2>Portfolio</h2>
         <ul>
           <li>
-            <a className="menu">About</a>
+            <a href="#main" className="menu"> About  </a>
+          </li>  
+          <li>
+            <a href="#skill"className="menu"> Skills  </a>
           </li>
           <li>
-            <a className="menu">Skills</a>
+            <a href="#edu"className="menu"> Education  </a>
           </li>
           <li>
-            <a className="menu">Education</a>
+            <a href="#intern" className="menu"> Internship  </a>
           </li>
           <li>
-            <a className="menu">Projects</a>
+            <a href="#project"className="menu"> Projects  </a>
           </li>
 
-          <button>Hire Me</button>
+          <li>
+            <a href="#contact"className="menu"> Contact</a>
+          </li>
         </ul>
       </div>
       <div className="about">
@@ -34,6 +39,8 @@ function Main() {
           <h4>
             And I'm a <span>Software Developer</span>
           </h4>
+          
+
         </div>
         <p>
           Aspiring to excel as a Software Developer within a vibrant team
@@ -44,14 +51,16 @@ function Main() {
 
         <div className="socialmedia">
          
-          <a className="hii" href="https://www.linkedin.com/in/vinoth-bala-321925236/">
+          <a href="https://www.linkedin.com/in/vinoth-bala-321925236/">
             <FaLinkedin size={20} />
           </a>
           <a href="https://github.com/Vinoth-Bala">
             <BsGithub size={20}/>
           </a>
         </div>
+        <a className="button" href={resume}> 
         <button>Download CV</button>
+        </a>
       </div>
     </div>
   );
